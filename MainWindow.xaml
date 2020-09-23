@@ -8,26 +8,19 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <!--ActorId-->
-            <Label Content="ActorId: "/>
-            <TextBox x:Name="ActorIdTextBox" Text="{Binding ActorId}"/>
+            <Menu Height="18">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="rActoresMenuItem" Header="Registro de actores" Click="rActoresMenuItem_Click"/>
+                </MenuItem>
 
-            <!--Boton Buscar-->
-            <Button x:Name="BuscarButton" Content="Buscar" Click="BuscarButton_Click"/>
+                <MenuItem Header="Consultas">
+                    <!-- <MenuItem x:Name="cActoresMenuItem" Header="Consulta de actores" Click="cActoresMenuItem_Click"/> -->
+                </MenuItem>
 
-            <!--Nombres-->
-            <Label Content="Nombres: "/>
-            <TextBox x:Name="NombresTextBox" Text="{Binding Nombres}"/>
-
-            <!--Salario-->
-            <Label Content="Salario: "/>
-            <TextBox x:Name="SalarioTextBox" Text="{Binding Salario}"/>
-
-            <!--Boton Guardar-->
-            <Button x:Name="GuardarButton" Content="Guardar" Click="GuardarButton_Click"/>
-
-            
-
+                <MenuItem Header="Ayuda">
+                    <Menu/>
+                </MenuItem>
+            </Menu>
         </StackPanel>
     </Grid>
 </Window>

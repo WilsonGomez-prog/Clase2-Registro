@@ -13,5 +13,6 @@ namespace Clase2_Registro
     /// </summary>
     public partial class App : Application
     {
+
     }
 }

@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Clase2_Registro.DAL;
+using Clase2_Registro.Entidades;
+using Clase2_Registro.UI.Registros;
 
 namespace Clase2_Registro
 {
@@ -20,47 +23,16 @@ namespace Clase2_Registro
     /// </summary>
     public partial class MainWindow : Window
     {
-        Actores actor;
+        
         public MainWindow()
         {
-            InitializeComponent();
-            actor = new Actores();
-            this.DataContext = actor;
-        }
+            // InitializeComponent();
+        }  
 
-        public void GuardarButton_Click(object sender, RoutedEventArgs e)
+        public void rActoresMenuItem_Click(object sender, RoutedEventArgs e)
         {
-
-            Contexto context = new Contexto();
-
-            this.actor.Nombres = NombresTextBox.Text;
-            this.actor.Salario = Convert.ToDecimal(SalarioTextBox.Text);
-
-            context.Actores.Add(this.actor);
-
-            int cant = context.SaveChanges();
-
-            if (cant > 0)
-            {
-                MessageBox.Show("Guardado");
-            }
-            
-            NombresTextBox.Text = "";
-            SalarioTextBox.Text = "";
-            context.Dispose();
-        }
-
-        public void BuscarButton_Click(object sender, RoutedEventArgs e)
-        {
-            Contexto context = new Contexto();
-            var found = context.Actores.Find(Convert.ToInt32(ActorIdTextBox.Text));
-            
-            if (found != null)
-            {
-                Actores actor = found;
-                NombresTextBox.Text = actor.Nombres;
-                SalarioTextBox.Text = Convert.ToString(actor.Salario);
-            }
-        }
+            rActores actor = new rActores();
+            actor.Show();
+        }    
     }
 }

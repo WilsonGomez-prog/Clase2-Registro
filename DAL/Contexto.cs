@@ -1,13 +1,17 @@
 using Microsoft.EntityFrameworkCore;
+using Clase2_Registro.Entidades;
 
-public class Contexto : DbContext
+namespace Clase2_Registro.DAL
 {
-    public DbSet<Actores> Actores { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public class Contexto : DbContext
     {
-        base.OnConfiguring(optionsBuilder);
+        public DbSet<Actores> Actores { get; set; }
 
-        optionsBuilder.UseSqlite(@"Data Source=Peliculas.db");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+
+            optionsBuilder.UseSqlite(@"Data Source=DATA\Peliculas.db");
+        }
     }
 }

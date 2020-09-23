@@ -58,3 +58,10 @@ C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Regis
 C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro.dll
 C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro.pdb
 C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro.genruntimeconfig.cache
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro_Content.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\UI\Registros\rActores.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\bin\Debug\netcoreapp3.1\Imagenes\save_icon.png
+C:\Users\wilso\source\repos\Clase2-Registro\bin\Debug\netcoreapp3.1\Imagenes\search_icon.png
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\UI\Registros\rActores.baml
+C:\Users\wilso\source\repos\Clase2-Registro\bin\Debug\netcoreapp3.1\Imagenes\delete_icon.png
+C:\Users\wilso\source\repos\Clase2-Registro\bin\Debug\netcoreapp3.1\Imagenes\new_icon.png

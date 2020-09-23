@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro.csproj": {}
+    "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro_2swobwo3_wpftmp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro.csproj": {
+    "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro_2swobwo3_wpftmp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro.csproj",
-        "projectName": "Clase2-Registro",
-        "projectPath": "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro.csproj",
+        "projectUniqueName": "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro_2swobwo3_wpftmp.csproj",
+        "projectName": "Clase2-Registro_2swobwo3_wpftmp",
+        "projectPath": "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\Clase2-Registro_2swobwo3_wpftmp.csproj",
         "packagesPath": "C:\\Users\\wilso\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\wilso\\source\\repos\\Clase2-Registro\\obj\\",
         "projectStyle": "PackageReference",

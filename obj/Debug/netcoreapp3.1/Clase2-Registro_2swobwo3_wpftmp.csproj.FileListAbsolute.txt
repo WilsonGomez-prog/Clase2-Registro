@@ -1,0 +1,7 @@
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro_2swobwo3_wpftmp.csprojAssemblyReference.cache
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\UI\Registros\rActores.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro_2swobwo3_wpftmp_Content.g.cs
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro_2swobwo3_wpftmp_MarkupCompile.cache
+C:\Users\wilso\source\repos\Clase2-Registro\obj\Debug\netcoreapp3.1\Clase2-Registro_2swobwo3_wpftmp_MarkupCompile.lref
